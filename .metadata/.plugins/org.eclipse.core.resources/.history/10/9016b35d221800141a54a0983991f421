@@ -1,0 +1,13 @@
+package com.privacyfix.core.web;
+import  org.sikuli.script.*;
+
+
+
+public class Sikuli {
+
+public Integer  clickOnImage(target){
+	Screen s = new Screen();
+	s.click(target);
+	}	
+}
+

@@ -1,0 +1,58 @@
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.HeadlessException;
+
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+
+public class Test extends JFrame {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		new Test() ;
+		
+
+	}
+
+	public Test() throws HeadlessException{
+		super();
+		
+		setTitle("Automation script runner");
+		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+		setBackground(Color.BLUE);
+
+		setPreferredSize(new Dimension(500,400));
+		setLocationRelativeTo(null);
+		//setSize(500,400);
+	    addComponents(getContentPane());
+		pack();
+		
+		setVisible(true);
+		
+	}
+
+	private void addComponents(Container contentPane) {
+		contentPane.setLayout(new BorderLayout());
+		contentPane.add(new JPanel(),BorderLayout.NORTH);
+		contentPane.add(new JButton("Haha"),BorderLayout.EAST);
+		contentPane.add(new JTextField("Automation script runner"),BorderLayout.WEST);
+		contentPane.add(new JTextArea("blabla"),BorderLayout.SOUTH);
+		contentPane.add(new JCheckBox("Test cases"),BorderLayout.CENTER);
+		
+	}
+	
+}

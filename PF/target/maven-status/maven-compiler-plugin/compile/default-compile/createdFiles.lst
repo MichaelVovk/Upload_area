@@ -1,0 +1,14 @@
+com\privacyfix\core\web\WebComponent.class
+com\privacyfix\core\BrowserType.class
+com\privacyfix\core\web\elements\TextInput.class
+com\privacyfix\core\DriverMaster$1.class
+com\privacyfix\core\BaseTest.class
+com\privacyfix\core\web\Component.class
+com\privacyfix\core\web\Wait.class
+com\privacyfix\core\web\elements\Button.class
+com\privacyfix\core\web\elements\Link.class
+com\privacyfix\core\web\Sikuli.class
+com\privacyfix\core\web\pages\InstallPage.class
+com\privacyfix\core\web\WebPage.class
+com\privacyfix\core\Logger.class
+com\privacyfix\core\DriverMaster.class

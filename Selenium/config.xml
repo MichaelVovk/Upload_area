@@ -1,0 +1,5 @@
+<Appconfig>
+	<timeout>120</timeout>
+	<browser>chrome</browser>
+	<delimiter>_cnt_</delimiter>
+</Appconfig>

@@ -1,0 +1,14 @@
+package com.privacyfix.core.web;
+import  org.sikuli.script.*;
+
+
+
+public class Sikuli {
+
+public  void clickOnImage(Integer target) throws FindFailed{
+	Screen s = new Screen();
+	
+	s.click(target);
+	}	
+}
+

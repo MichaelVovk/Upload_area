@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;Test.addComponents().checkbox&apos; in &apos;Test.addComponents()&apos; to field&#x0D;&#x0A;- Original project: &apos;Swing&apos;&#x0D;&#x0A;- Original element: &apos;Test.addComponents().checkbox&apos;&#x0D;&#x0A;- Field name: &apos;checkbox&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;checkbox&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;{Test.java" name="checkbox" selection="1698 8" stamp="1408381653923" static="false" version="1.0" visibility="2"/>
+</session>
